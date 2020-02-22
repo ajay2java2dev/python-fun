@@ -16,7 +16,10 @@ if __name__ == "__main__":
     del test1[0]
     print (test1)
 
+    test1.append('10')
+    
     print (sorted(test1))
     test1.reverse()
     print (test1)
+    test1.pop()
     print(len(test1))
