@@ -16,4 +16,11 @@ if __name__ == "__main__":
     full_name = "{} {}".format(first_name, last_name)
     print("Hello new , {}".format(full_name.title()))
 
+    print (0.2 + 0.1) #--> 0.30000000000000004 weird answer
+    print (0.2 * 0.1) # --> 0.020000000000000004 weird answer
+
+    print (1_0000_0000)
+
+    
+
     
